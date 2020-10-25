@@ -21,10 +21,10 @@ eststo regression_one
 * FOR PEOPLE USING LaTeX: 
 * Create output options. The below defaults are common and can be customized. 
 global tableoptions "bf(%15.2gc) sfmt(%15.2gc) prehead(\begin{tabular}{l*{14}{c}}) postfoot(\end{tabular}) se label noisily noeqlines nonumbers varlabels(_cons Constant, end("" ) nolast)  starlevels(* 0.1 ** 0.05 *** 0.01) replace r2"
-esttab regression_one using Ai-Experiment-Table.tex, $tableoptions keep(eliteschoolcandidate) 
+esttab regression_one using Assignment1-Table.tex, $tableoptions keep(eliteschoolcandidate) 
 
 
 **********************************
 * FOR PEOPLE USING MICROSOFT: 
 global tableoptions "bf(%15.2gc) sfmt(%15.2gc) se label noisily noeqlines nonumbers varlabels(_cons Constant, end("" ) nolast)  starlevels(* 0.1 ** 0.05 *** 0.01) replace r2"
-esttab regression_one using Ai-Experiment-Table.rtf, $tableoptions keep(eliteschoolcandidate) 
+esttab regression_one using Assignment1-Table.rtf, $tableoptions keep(eliteschoolcandidate) 

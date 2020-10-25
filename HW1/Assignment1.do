@@ -9,9 +9,10 @@ insheet using "/Users/chenwang/Documents/GitHub/Research-Method-Assignments/HW1/
 * Label your variables
 label variable eliteschoolcandidate "Elite School Candidate"
 label variable calledback "Called Back"
+label variable recruiterismale "Recruiter is Male"
 
 * Run regression: 
-reg calledback eliteschoolcandidate
+reg calledback eliteschoolcandidate i.malecandidate i.recruiterismale
 
 * Store regression
 eststo regression_one 
